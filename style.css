@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #FED1CA;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  header {
+    padding: 35px 0;
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: rgba(200,55,51,0.7);
+  }
+  
+  header h1 span {
+    color: #C83733;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin-bottom: 4px
+  }
+  
+  section {
+    margin-bottom: 24px
+  }
+  
+  section, header {
+    max-width: 300px;
+    border: 1px;
+    margin: 0 auto;
+  }
+  
+  section h2 {
+    background-color: #F6B9B4;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+  
+  ul li {
+    margin-bottom: 16px;
+    display: flex;
+  }
+  
+  li .details {
+    max-width: 240px; 
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 8px
+  }
+  
+  /* FONTS */
+  h1, h2, h3, .price {
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2d2c2a;
+    }
+
+  
+  
+  
+  
