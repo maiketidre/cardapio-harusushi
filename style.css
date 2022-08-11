@@ -2,27 +2,26 @@
     margin: 0;
     padding: 0;
   }
-  
-  body {
-    background-color: #FED1CA;
-    font-family: 'Roboto', sans-serif;
-  
-  }
-  
-  ul{
-    list-style-type: none;
-  }
   header {
     padding: 35px 0;
     text-align: center;
+  }
+  
+  header h1 span {
+    color: #C83733;
   }
   
   .subtitle {
     color: rgba(200,55,51,0.7);
   }
   
-  header h1 span {
-    color: #C83733;
+  body {
+    background-color: #FED1CA;
+    font-family: 'roboto', sans-serif;
+  }
+  
+  ul{
+    list-style-type: none;
   }
   
   header h1 {
@@ -64,11 +63,10 @@
   
   /* FONTS */
   h1, h2, h3, .price {
-    font-family: 'Roboto Serif', serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #2d2c2a;
     }
-
   
   
   
