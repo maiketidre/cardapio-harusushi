@@ -19,10 +19,10 @@ header h1 span {
 
 body {
 	background-color: #fed1ca;
-	/* background-image: url(background.png);
+	background-image: url(background.png);
 	background-repeat: repeat;
 	background-size: contain;
-	background-attachment: fixed; */
+	background-attachment: fixed;
 	
 	font-family: 'roboto', sans-serif;
 }
@@ -78,7 +78,7 @@ h3,
 	text-transform: uppercase;
 	color: #2d2c2a;
 }
-/*
+
 .column {
     display: flex;
     flex-direction: column;
@@ -93,10 +93,14 @@ h3,
     flex-wrap: wrap;
     width: 100%;
   }
-*/
+
   footer {
 	text-align: center;
 	margin-bottom: 20px;
 	font-size: 15px;
 	text-transform: uppercase;
+  }
+  div {
+	margin: 10px;
+	padding: 10px;
   }
