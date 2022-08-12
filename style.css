@@ -101,5 +101,6 @@ h3,
 	text-transform: uppercase;
   }
   div {
-	padding: 5px;	
+	  margin: 1px;
+	padding: 1px;	
   }
