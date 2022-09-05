@@ -64,7 +64,7 @@ span {
 }
 
 section {
-	width: 300px;
+	max-width: 300px;
 	margin: 10px;
 	padding: 5px;
 	backdrop-filter: blur(20px);
@@ -74,8 +74,6 @@ section {
 
 #grid {
 	display: inline-table;
-
-	
 }
 
 section h2 {
