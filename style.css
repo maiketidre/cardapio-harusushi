@@ -1,0 +1,78 @@
+
+
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(fundo7.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+	color: rgb(199, 56, 52);
+}
+
+h1 {
+    text-transform: uppercase;
+    color: Black;
+    text-align: center;
+    font-family: 'Siamese Katsong', sans-serif;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgb(104, 48, 47);
+}
+.subtittle {
+    text-align: center;
+    color: rgb(199, 56, 52);
+    margin: 0;
+   	font-weight: bold;
+}
+
+.base{
+    max-width: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#principal {
+    width: 300px;
+    height: 500px;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 0 0 2em rgb(104, 48, 47);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.logotipo {
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 2em rgb(104, 48, 47);
+}
+
+li {
+    width: 200px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    /*font-family: 'Siamese Katsong', sans-serif;*/
+    box-shadow: 0 0 2em rgb(104, 48, 47);
+    margin: 10px;
+    padding: 10px 1px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(71, 52, 57);
+    text-shadow: 1px 1px 1px rgb(104, 48, 47);
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+}

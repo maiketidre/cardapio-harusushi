@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fed1ca;
+	background-image: url(fundo7.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'roboto', sans-serif;
+}
+
+header {
+	padding: 35px 0;
+	text-align: center;
+	max-width: 300px;
+	border: 1px;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-bottom: 4px;
+}
+button {
+	width: 100px;
+	border: 0px;
+	background-color: red;
+	border-radius: 3px;
+	box-shadow: 0 0 2em rgb(104, 48, 47);
+}
+a {
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Siamese Katsong', sans-serif;
+	font-size: 50px;
+	margin-bottom: 4px;
+	text-shadow: 5px 5px 5px darkred;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: 'Siamese Katsong', sans-serif;
+	text-shadow: 5px 5px 5px darkred;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+
+span {
+	color: #CE3737;
+}
+
+.subtitle {
+	color: #CE3737;
+	font-size: 20px;
+}
+
+section {
+	width: 300px;
+	margin: 10px;
+	padding: 5px;
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(1px);
+	box-shadow: 0 0 2em rgb(104, 48, 47);
+}
+
+#grid {
+	display: inline-table;
+
+	
+}
+
+section h2 {
+	background-color: #CE3737;
+	padding: 8px 16px;
+	text-align: center;
+	margin-bottom: 24px;
+	font-size: 25px;
+
+}
+ul li {
+	margin-bottom: 16px;
+	display: flex;
+}
+
+footer {
+	width: 100%;
+	background-color: red;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+}
