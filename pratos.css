@@ -4,6 +4,8 @@
 }
 
 body {
+	text-align: center;
+	width: 100%;
 	background-color: #fed1ca;
 	background-image: url(fundo7.jpg);
 	background-size: cover;
@@ -64,7 +66,7 @@ span {
 }
 
 section {
-	max-width: 300px;
+	width: 300px;
 	margin: 10px;
 	padding: 5px;
 	backdrop-filter: blur(20px);
@@ -73,7 +75,7 @@ section {
 }
 
 #grid {
-	display: inline-table;
+	display: inline-block;
 }
 
 section h2 {
