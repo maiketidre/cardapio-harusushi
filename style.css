@@ -8,6 +8,7 @@ body {
     margin: 0;
     background-image: url(fundo7.jpg);
     background-size: cover;
+    background-position: center;
     font-family: 'Roboto', sans-serif;
 }
 
