@@ -9,6 +9,7 @@ body {
 	background-color: #fed1ca;
 	background-image: url(fundo7.jpg);
 	background-position: center;
+	background-attachment: scroll;
 	font-family: 'roboto', sans-serif;
 }
 
