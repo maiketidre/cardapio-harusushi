@@ -7,9 +7,10 @@ body {
 	align-items: center;
 	width: 100%;
 	background-color: #fed1ca;
-	/*background-image: url(./fundo7.jpg);*/
+	background-image: url(./fundo4.jpg);
 	background-position: center;
 	background-attachment: fixed;
+	background-size: cover;
 	font-family: 'roboto', sans-serif;
 }
 
@@ -23,13 +24,35 @@ header {
 	margin-bottom: 4px;
 }
 
-button {
-	width: 100px;
+.btn {
+	width: auto;
 	border: 0px;
-	background-color: red;
-	border-radius: 3px;
-	box-shadow: 0 0 2em rgb(104, 48, 47);
+	padding: 8px;
+	border-radius: 10px;
+	font-family: 'roboto', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	cursor: pointer;
 }
+
+.btn-red {
+	background-color: #CE3737;
+	color: white;
+	box-shadow: 0 5px 0 rgb(104, 48, 47);
+}
+
+.btn-red:hover {
+	background-color:#CE3737;
+	color: rgb(27, 17, 17);
+	box-shadow: 0 5px 0 rgb(39, 16, 16);
+}
+
+.btn-red:active {
+	box-shadow: none;
+	position: relative;
+	top: 5px;
+}
+
 .whatsapp {
 	position: fixed;
 	width: 60px;
@@ -57,7 +80,7 @@ a {
 h1 {
 	font-family: 'Siamese Katsong', sans-serif;
 	font-size: 50px;
-	text-shadow: 5px 5px 5px darkred;
+	text-shadow: 0px 5px 0px rgb(83, 81, 81);
 }
 
 h2 {
@@ -68,21 +91,26 @@ h2 {
 
 h3 {
 	text-transform: uppercase;
-	text-decoration: underline;
 	font-size: 16px;
 	margin-bottom: 5px;
 }
-img {
+
+.itens {
 width: 100px;
 }
 
+img {
+	width: 300px;
+}
 span {
 	color: #CE3737;
+	text-shadow: 0px 5px 0px darkred;
 }
 
 .subtitle {
 	color: #CE3737;
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 section {
@@ -109,7 +137,7 @@ ul li {
 	display: flex;
 }
 
-footer {
+.rodape {
 	width: 100%;
 	background-color: red;
     font-size: 10px;
