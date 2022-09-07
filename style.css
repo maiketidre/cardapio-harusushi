@@ -20,10 +20,11 @@ h1 {
     text-transform: uppercase;
     color: Black;
     text-align: center;
-    font-family: 'Siamese Katsong', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     text-shadow: 2px 2px 2px rgb(104, 48, 47);
 }
+
 .subtittle {
     text-align: center;
     color: rgb(199, 56, 52);
@@ -31,7 +32,7 @@ h1 {
    	font-weight: bold;
 }
 
-.base{
+.base {
     max-width: auto;
     margin: auto;
     border-radius: 5px;
@@ -46,34 +47,62 @@ h1 {
     -webkit-backdrop-filter: blur(20px);
 }
 
-.logotipo {
+.logotipo  {
     margin: 20px;
     border-radius: 50%;
     box-shadow: 0 0 2em rgb(104, 48, 47);
 }
 
-li {
+     /*     INICIO CONFIGURAÇÃO DO BOTÃO         */
+
+.btn {
     width: 200px;
-    list-style-type: none;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     /*font-family: 'Siamese Katsong', sans-serif;*/
-    box-shadow: 0 0 2em rgb(104, 48, 47);
-    margin: 10px;
+    margin: 5px;
     padding: 10px 1px;
+    border: 0px;
     border-radius: 20px;
+    background-color: #CE3737;
+	color: rgb(27, 17, 17);
+	box-shadow: 0 5px 0 #890101;
+}
+
+.btn-red:hover {
+	background-color:#CE3737;
+	color: rgb(27, 17, 17);
+	box-shadow: 0 5px 0 rgb(39, 16, 16);
+}
+
+.btn-red:active {
+	box-shadow: none;
+	position: relative;
+	top: 5px;
+}
+
+ /*     FIM CONFIGURAÇÃO DO BOTÃO         */
+
+li {
+    list-style-type: none;
 }
 
 a {
+
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(71, 52, 57);
-    text-shadow: 1px 1px 1px rgb(104, 48, 47);
+    color: rgb(255, 255, 255);
 }
 
 footer {
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
     font-size: 10px;
     text-align: center;
     font-weight: bold;
+    background-color: rgba(146, 39, 39, 0.397);
 }
