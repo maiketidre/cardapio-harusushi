@@ -24,6 +24,11 @@ header {
 	margin-bottom: 4px;
 }
 
+@font-face {
+	font-family: "Siamese Katsong";
+	src: url(./SiameseKatsong.woff);
+}
+
 .btn {
 	width: auto;
 	border: 0px;
